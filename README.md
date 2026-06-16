@@ -10,6 +10,8 @@ Use this prompt with your AI assistant:
 Update my ~/.claude/settings.json and set the spinner verbs to https://raw.githubusercontent.com/<OWNER>/<REPO>/main/verbs/<VERBS_FILENAME>.txt using mode: replace or append
 ```
 
+`~/.claude/settings.json` is the Claude local settings file (create it first if it does not exist).
+
 Example with this repository:
 
 ```text
@@ -45,5 +47,5 @@ Use this prompt when you want AI to add a new list:
 
 ```text
 Add the following verbs to this repository [LIST_OF_VERBS].
-Create a new file in /verbs (for example verbs/<name>.txt), write one verb per line, and update the "Verbs file index" table in README.md with the new file and description.
+Create a new file in verbs/ (for example verbs/<name>.txt), write one verb per line, and update the "Verbs file index" table in README.md with the new file and description.
 ```
