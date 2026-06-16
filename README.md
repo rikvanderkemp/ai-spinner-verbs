@@ -28,6 +28,7 @@ This repository stores verb lists as text files in `/verbs`.
 | --- | --- |
 | `verbs/rambo.txt` | Rambo-themed action verbs |
 | `verbs/discworld.txt` | Discworld-themed verbs (Terry Pratchett) |
+| `verbs/bobiverse.txt` | Bobiverse-themed verbs (Dennis E. Taylor) |
 
 ## Repository structure and AI update workflow
 
