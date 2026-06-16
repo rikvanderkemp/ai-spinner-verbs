@@ -1,5 +1,0 @@
-plan
-build
-test
-review
-refactor

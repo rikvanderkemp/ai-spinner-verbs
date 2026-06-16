@@ -15,7 +15,7 @@ Update my ~/.claude/settings.json and set the spinner verbs to https://raw.githu
 Example with this repository:
 
 ```text
-Update my ~/.claude/settings.json and set the spinner verbs to https://raw.githubusercontent.com/rikvanderkemp/ai-spinner-verbs/main/verbs/default.txt using mode: replace
+Update my ~/.claude/settings.json and set the spinner verbs to https://raw.githubusercontent.com/rikvanderkemp/ai-spinner-verbs/main/verbs/rambo.txt using mode: replace
 ```
 
 If you use your own fork, replace `rikvanderkemp/ai-spinner-verbs` with your owner/repo.
@@ -26,7 +26,6 @@ This repository stores verb lists as text files in `/verbs`.
 
 | File | Description |
 | --- | --- |
-| `verbs/default.txt` | Default personal verb list |
 | `verbs/rambo.txt` | Rambo-themed action verbs |
 | `verbs/discworld.txt` | Discworld-themed verbs (Terry Pratchett) |
 
