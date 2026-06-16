@@ -7,7 +7,7 @@ My personal AI-verbs list to use with Claude AI or other systems that support th
 Use this prompt with your AI assistant:
 
 ```text
-Update my ~/.claude/settings.json and set the spinner verbs to <GITHUB_REPO>/<VERBS_FILE>.txt using mode: replace or append
+Update my ~/.claude/settings.json and set the spinner verbs to https://raw.githubusercontent.com/<OWNER>/<REPO>/main/verbs/<VERBS_FILE>.txt using mode: replace or append
 ```
 
 Example with this repository:
