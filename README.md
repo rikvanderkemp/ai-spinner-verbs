@@ -51,3 +51,43 @@ Use this prompt when you want AI to add a new list:
 Add the following verbs to this repository <LIST_OF_VERBS>.
 Create a new file in verbs/ (for example verbs/<name>.txt), write one verb per line, and update the "Verbs file index" table in README.md with the new file and description.
 ```
+
+## Randomize the verb list every session
+
+Want a different themed spinner each time you open Claude Code? Use the bundled
+`scripts/random-spinner-verbs.sh` as a `SessionStart` hook. It picks a random
+`verbs/*.txt` and writes it into your `spinnerVerbs` setting.
+
+1. Make the script executable (once, after cloning):
+
+   ```sh
+   chmod +x scripts/random-spinner-verbs.sh
+   ```
+
+2. Add a `SessionStart` hook to `~/.claude/settings.json`, pointing `command` at
+   wherever you cloned this repo:
+
+   ```json
+   {
+     "hooks": {
+       "SessionStart": [
+         {
+           "hooks": [
+             {
+               "type": "command",
+               "command": "~/code/ai-spinner-verbs/scripts/random-spinner-verbs.sh",
+               "statusMessage": "Rotating spinner verbs"
+             }
+           ]
+         }
+       ]
+     }
+   }
+   ```
+
+The script requires [`jq`](https://jqlang.github.io/jq/). It rewrites
+`spinnerVerbs` with `mode: "replace"` and the chosen list while preserving every
+other setting, and exits without touching anything if `jq`, the settings file,
+or the `verbs/` folder is missing — so it never breaks startup. The list
+re-rolls on every session; depending on settings load order the freshly chosen
+list may take effect from the next session.
