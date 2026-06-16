@@ -30,6 +30,7 @@ This repository stores verb lists as text files in `/verbs`.
 | `verbs/discworld.txt` | Discworld-themed verbs (Terry Pratchett) |
 | `verbs/bobiverse.txt` | Bobiverse-themed verbs (Dennis E. Taylor) |
 | `verbs/project-hail-mary.txt` | Project Hail Mary-themed verbs (Andy Weir) |
+| `verbs/the-expanse.txt` | The Expanse-themed verbs (James S. A. Corey) |
 
 ## Repository structure and AI update workflow
 
