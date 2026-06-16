@@ -16,6 +16,8 @@ Example with this repository:
 Update my ~/.claude/settings.json and set the spinner verbs to https://raw.githubusercontent.com/rikvanderkemp/ai-spinner-verbs/main/verbs/default.txt using mode: replace
 ```
 
+If you use your own fork, replace `rikvanderkemp/ai-spinner-verbs` with your owner/repo.
+
 ## Verbs file index
 
 This repository stores verb lists as text files in `/verbs`.
@@ -42,6 +44,6 @@ Each verbs file should be plain text with one verb per line.
 Use this prompt when you want AI to add a new list:
 
 ```text
-Add the following verbs to this repository [PASTED].
+Add the following verbs to this repository [LIST_OF_VERBS].
 Create a new file in /verbs (for example verbs/<name>.txt), write one verb per line, and update the "Verbs file index" table in README.md with the new file and description.
 ```
