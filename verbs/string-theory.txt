@@ -1,0 +1,34 @@
+Vibrating a string into a particle
+Exciting a string to a higher mode
+Finding the graviton in the closed-string spectrum
+Splitting one string into two
+Sweeping out a worldsheet
+Joining two strings into one
+Demanding ten dimensions for the superstring
+Counting twenty-six dimensions for the bosonic string
+Curling up the six extra dimensions
+Compactifying space into a Calabi–Yau manifold
+Projecting the tachyon out with GSO
+Setting the string tension
+Winding a string around a compact dimension
+Swapping a big radius for a small one (T-duality)
+Flipping strong coupling to weak (S-duality)
+Ending an open string on a D-brane
+Stacking D-branes to build a gauge theory
+Wrapping a brane around a cycle
+Listing the five superstring theories
+Unifying the five theories into M-theory
+Growing an eleventh dimension out of Type IIA
+Stretching out an M2-brane in eleven dimensions
+Holographically mapping a bulk to its boundary (AdS/CFT)
+Matching a gravity bulk to a gauge boundary
+Counting D-brane microstates of a black hole (Strominger–Vafa)
+Reproducing the Bekenstein–Hawking entropy
+Searching the landscape of vacua
+Smoothing the interaction over the worldsheet
+Canceling the conformal anomaly in the critical dimension
+Summing over all worldsheets (Polyakov path integral)
+Organizing the loop expansion by worldsheet genus
+Stabilizing the moduli with background fluxes
+Mirror-matching two Calabi–Yau shapes (mirror symmetry)
+Condensing a tachyon on a brane–antibrane pair
