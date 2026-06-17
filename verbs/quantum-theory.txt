@@ -1,0 +1,25 @@
+Collapsing the wavefunction
+Spreading the wavefunction back out
+Superposing every possible state
+Entangling a pair of particles
+Measuring one and spooking the other
+Respecting the uncertainty principle
+Refusing to know position and momentum at once
+Tunnelling through a barrier
+Letting the amplitudes interfere
+Summing over every possible path
+Quantizing the energy levels
+Borrowing energy from the vacuum (briefly)
+Watching virtual particles pop in and out
+Decohering into the classical world
+Turning a particle all the way around (still not itself)
+Flipping a qubit
+Putting the qubit in superposition
+Running the gates on the quantum circuit
+Keeping the qubits cold and coherent
+Watching error-correction fight decoherence
+Not cloning the unknown state (forbidden)
+Asking whether the cat is alive yet
+Pushing the measurement problem down the road
+Renormalizing the infinities away
+Filling the Dirac sea

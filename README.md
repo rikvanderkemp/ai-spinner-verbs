@@ -31,6 +31,7 @@ This repository stores verb lists as text files in `/verbs`.
 | `verbs/bobiverse.txt` | Bobiverse-themed verbs (Dennis E. Taylor) |
 | `verbs/project-hail-mary.txt` | Project Hail Mary-themed verbs (Andy Weir) |
 | `verbs/the-expanse.txt` | The Expanse-themed verbs (James S. A. Corey) |
+| `verbs/quantum-theory.txt` | Quantum theory-themed verbs (physics) |
 
 ## Repository structure and AI update workflow
 
